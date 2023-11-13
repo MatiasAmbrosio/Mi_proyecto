@@ -18,6 +18,10 @@ p {
   color: #000;
 }
 
+.logo {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
 .menu {
   font-family: "Roboto", sans-serif;
 }
@@ -52,6 +56,7 @@ nav div {
   margin-bottom: 15px;
 }
 
+/** No supe como pasarlo bien es algo que estoy solucionando**/
 /** Estilos de página principal**/
 #destacados {
   display: flex;
