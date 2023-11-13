@@ -1,63 +1,105 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+hr {
+  background-color: rgb(241, 221, 191);
+}
+
+p {
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#lista-footer {
+  list-style: none;
+  text-decoration: none;
+}
+#lista-footer li a {
+  color: #000;
+}
+
+.menu {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(241, 221, 191);
+}
+
+body {
+  background-color: rgb(241, 221, 191);
+}
+
+nav div {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#destacados {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 153, 0);
+}
+
+.btn {
+  background: orangered;
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /** Estilos de página principal**/
 #destacados {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .categoria {
-    margin-left: 10px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
+
 .card-img-top {
-    display: flex;
+  display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**Configuración de medidas de imagenes**/
-#medida-1{
-    width: 20%;
- }
- #medida-2{
-    width: 40%;
- }
- #medida-3{
-    width: 20%;
- }
- #medida-4{
-    width: 15%;
- }
+#medida-1 {
+  width: 20%;
+}
 
- /**Posicionamiento imagenes**/
- .menu {
-    display: flex;
-    justify-content: space-around;
+#medida-2 {
+  width: 40%;
+}
 
-    /**Wrap**/
-    flex-wrap: wrap;
- }
+#medida-3 {
+  width: 20%;
+}
 
- .photo-product {
-    display: flex;
-    justify-content: center;
+#medida-4 {
+  width: 15%;
+}
 
-    /**Wrap**/
-    flex-wrap: wrap;
- }
+/**Posicionamiento imagenes**/
+.menu {
+  display: flex;
+  justify-content: space-around;
+  /**Wrap**/
+  flex-wrap: wrap;
+}
 
- /**Footer**/
+.photo-product {
+  display: flex;
+  justify-content: center;
+  /**Wrap**/
+  flex-wrap: wrap;
+}
+
+/**Footer**/
+
+/*# sourceMappingURL=style.css.map */

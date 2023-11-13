@@ -1,0 +1,70 @@
+@import "./utilities/_variables.scss";
+@import "./base/_reset.scss";
+@import "./base/_typo.scss";
+@import "./components/_buttons.scss";
+@import "./components/_jumbo.scss";
+@import "./layout/_footer.scss";
+@import "./layout/_forms.scss";
+@import "./layout/_grid.scss";
+@import "./layout/_header.scss";
+@import "./layout/_navigation.scss";
+@import "./theme/_admin.scss";
+@import "./theme/_theme.scss";
+@import "./utilities/_functions.scss";
+@import "./utilities/_mixins.scss";
+@import "./utilities/_variables.scss";
+@import "./vendors/_bootstrap.scss";
+@import "./vendors/_jquery-ui.scss";
+@import "./view/_product.scss";
+@import "./view/_home.scss";
+
+/** No supe como pasarlo bien es algo que estoy solucionando**/
+
+/** Estilos de página principal**/
+#destacados {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .categoria {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ 
+ }
+ .card-img-top {
+    display: flex;
+ }
+ 
+ /**Configuración de medidas de imagenes**/
+ #medida-1{
+    width: 20%;
+ }
+ #medida-2{
+    width: 40%;
+ }
+ #medida-3{
+    width: 20%;
+ }
+ #medida-4{
+    width: 15%;
+ }
+ 
+ /**Posicionamiento imagenes**/
+ .menu {
+    display: flex;
+    justify-content: space-around;
+ 
+    /**Wrap**/
+    flex-wrap: wrap;
+ }
+ 
+ .photo-product {
+    display: flex;
+    justify-content: center;
+ 
+    /**Wrap**/
+    flex-wrap: wrap;
+ }
+ 
+ /**Footer**/

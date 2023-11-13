@@ -1,0 +1,26 @@
+header{
+   background-color: $background-color; 
+}
+body{
+    background-color: $background-color; 
+}
+nav{
+    div{
+        color: $color-principal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+#destacados{
+    font-family: 'Roboto', sans-serif;
+    color: $font-color-secondary;
+}
+.btn{
+    background: orangered;
+}
+.card{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
