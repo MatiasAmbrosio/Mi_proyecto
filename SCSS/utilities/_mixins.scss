@@ -1,0 +1,14 @@
+@mixin transition($transition-property, $transition-duration, $transition-delay) {
+    transition-property: $transition-property;
+    transition-duration: $transition-duration;
+    transition-delay: $transition-delay;
+    transition-timing-function: ease-in;
+}
+
+
+@mixin animation($animation-duration, $animation-delay, $animation-direction) {
+    animation-duration: $animation-duration;
+    animation-delay: $animation-delay;
+    animation-direction: $animation-direction;
+}
+/* quise hacer un mixin de animacion y no le pude encontrar la vuelta */

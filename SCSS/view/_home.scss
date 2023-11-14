@@ -24,3 +24,8 @@ nav{
    margin-top: 15px;
    margin-bottom: 15px;
 }
+.logo {
+    @include transition(all, 0.3s, 0s);
+    @include animation(1s, 0s, normal);
+}
+/* no supe como usarlo, no se donde estoy equivocado */
