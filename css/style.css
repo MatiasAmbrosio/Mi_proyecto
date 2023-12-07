@@ -16,73 +16,24 @@ p {
 }
 #lista-footer li a {
   color: #000;
+  text-decoration: none;
 }
 
 .logo {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-left: 10px;
 }
 
-/* quise hacer un mixin de animacion y no le pude encontrar la vuelta */
 .menu {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  background-color: rgb(241, 221, 191);
-}
-
-body {
-  background-color: rgb(241, 221, 191);
-}
-
-nav div {
-  color: #000;
+#texto-descriptivo {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
-}
-
-#destacados {
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 153, 0);
-}
-
-.btn {
-  background: orangered;
-}
-
-.card {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.logo {
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-delay: 0s;
-  transition-timing-function: ease-in;
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-direction: normal;
-}
-
-/* no supe como usarlo, no se donde estoy equivocado */
-/** No supe como pasarlo bien es algo que estoy solucionando**/
-/** Estilos de página principal**/
-#destacados {
-  display: flex;
-  justify-content: center;
-}
-
-.categoria {
-  margin-left: 10px;
-  margin-top: 40px;
-  margin-bottom: 50px;
-}
-
-.card-img-top {
-  display: flex;
+  gap: 10px;
 }
 
 /**Configuración de medidas de imagenes**/
@@ -117,6 +68,58 @@ nav div {
   flex-wrap: wrap;
 }
 
-/**Footer**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(241, 221, 191);
+}
+
+body {
+  background-color: rgb(241, 221, 191);
+}
+
+nav div {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#destacados {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 153, 0);
+}
+
+.btn {
+  background: orangered;
+}
+
+/** Estilos de página principal**/
+#destacados {
+  display: flex;
+  justify-content: center;
+}
+
+.categoria {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.card-img-top {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.comentarios {
+  display: flex;
+  -ms-flex-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

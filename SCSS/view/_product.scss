@@ -1,3 +1,38 @@
 .menu{
     font-family: 'Roboto', sans-serif;
 }
+#texto-descriptivo{
+    @include flex(column, center, center, 10px)
+}
+
+
+ /**Configuración de medidas de imagenes**/
+ #medida-1{
+    width: 20%;
+ }
+ #medida-2{
+    width: 40%;
+ }
+ #medida-3{
+    width: 20%;
+ }
+ #medida-4{
+    width: 15%;
+ }
+ 
+ /**Posicionamiento imagenes**/
+ .menu {
+    display: flex;
+    justify-content: space-around;
+ 
+    /**Wrap**/
+    flex-wrap: wrap;
+ }
+ 
+ .photo-product {
+    display: flex;
+    justify-content: center;
+ 
+    /**Wrap**/
+    flex-wrap: wrap;
+ }

@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
    background-color: $background-color; 
 }
@@ -11,7 +17,7 @@ nav{
         justify-content: center;
         align-items: center;
         font-family: 'Roboto', sans-serif;
-    }
+    } 
 }
 #destacados{
     font-family: 'Roboto', sans-serif;
@@ -20,12 +26,25 @@ nav{
 .btn{
     background: orangered;
 }
-.card{
-   margin-top: 15px;
-   margin-bottom: 15px;
-}
-.logo {
-    @include transition(all, 0.3s, 0s);
-    @include animation(1s, 0s, normal);
-}
-/* no supe como usarlo, no se donde estoy equivocado */
+
+/** Estilos de página principal**/
+#destacados {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .categoria {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ 
+ }
+ .card-img-top {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+ }
+ .comentarios {
+    display: flex;
+    -ms-flex-align: center;
+ }
